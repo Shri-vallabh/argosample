@@ -10,6 +10,8 @@ spec:
   destinations:
   - namespace: sample-app
     server: https://kubernetes.default.svc
+  - namespace: azure-vote-app
+    server: https://kubernetes.default.svc
   orphanedResources:
     warn: false
   sourceRepos:
